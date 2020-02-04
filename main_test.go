@@ -8,7 +8,6 @@ package main
 import (
 	"testing"
 	"encoding/json"
-	"github.com/colemai/golang_challenge/src/main"
 )
 
 // Some sort of brilliant test to discern any response from API
