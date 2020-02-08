@@ -23,11 +23,11 @@ import (
 const baseURL = "https://api.form3.tech/"
 
 func main() {
-	var response string = fetchReq()
+	var response string = FetchReq()
 	fmt.Println(response)
 }
 
-func fetchReq () string {
+func FetchReq () string {
 	var output string
 	response, err := http.Get("https://api.coinbase.com/v2/prices/spot?currency=EUR")
 	if err != nil {
